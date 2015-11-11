@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+.center {
+  text-align: center;
+}
+.game {
+  margin: 10px;
+}
+.gameover {
+  display: none;
+  text-align: center;
+}
+.lose, .tie {
+  display: none;
+}
+.pipselect {
+  font-size: 30px !important;
+}
+.board {
+  text-align: center;
+}
+.board-row {
+  margin: 0 auto;
+  height: 80px;
+  display: block;
+  max-width: 240px;
+}
+.board-space {
+  max-width: 80px;
+  min-width: 80px;
+  font-size: 50px;
+  margin: 0px;
+  height: 80px;
+  vertical-align: middle;
+  border-style: solid;
+  display: inline-block;
+}
+

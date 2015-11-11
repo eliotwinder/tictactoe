@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Unbeatable TTT</title>
+  <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/ >
+  <link href="assets/styles.css" rel="stylesheet" type="text/css">
+  <link href="assets/bootstrap.css" rel="stylesheet" type="text/css">
+
+  <script src="assets/jquery.js"></script>
+  <script src="Game.js" type="text/javascript"></script>
+</head>
+<body> 
+  <div class="intro">
+    <div class="col-xs-6 col-xs-offset-3 center">
+      <div class='welcome'>
+        <h2> Welcome to </h2>
+        <h1> Tic-Tac-Toe! </h1>
+      </div>
+
+      <h2> Pick a side: </h2>
+      <div class="btn-group pickpip">
+        <div data-pip="X" class="btn btn-xlarge btn-primary pipselect">Xs</div>
+        <div data-pip="O" class="btn btn-xlarge btn-primary pipselect">Os</div>
+      </div>
+    </div>
+  </div>
+  
+  
+  <div class="game row text-center">
+  </div>
+
+  <div class="gameover">
+    <h2 class="lose"> You lose! </h2>
+    <h2 class="tie"> Tie! </h2>
+    <h2> Pick a side to play again! </h2>
+    <div class="btn-group pickpip">
+      <div data-pip="X" class="btn btn-xlarge btn-primary pipselect">Xs</div>
+      <div data-pip="O" class="btn btn-xlarge btn-primary pipselect">Os</div>
+    </div>
+  </div>
+</body>
+</html>
